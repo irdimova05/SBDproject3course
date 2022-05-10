@@ -1,0 +1,107 @@
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\SBDproject.exe.config
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\SBDproject.exe
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\SBDproject.pdb
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\MySqlConnector.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Buffers.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Memory.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\MySqlConnector.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Buffers.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Memory.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.csproj.AssemblyReference.cache
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.Properties.Resources.resources
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.csproj.GenerateResource.cache
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.csproj.CoreCompileInputs.cache
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.csproj.CopyComplete
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.exe
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.pdb
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.Register.resources
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.Login.resources
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.Edit_Property.resources
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.Add_Property.resources
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.My_properties.resources
+C:\Users\Irka\source\repos\SBDproject\SBDproject\obj\Debug\SBDproject.Real_Estate.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.exe.config
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.exe
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.pdb
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Buffers.dll
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Memory.dll
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\MySqlConnector.xml
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.exe.config
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Edit_Property.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Add_Property.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.My_properties.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Real_Estate.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Register.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Login.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Properties.Resources.resources
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.GenerateResource.cache
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.exe
+C:\Users\User\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.pdb
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.AssemblyReference.cache
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.exe.config
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Edit_Property.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Add_Property.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.My_properties.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Real_Estate.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Register.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Login.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Properties.Resources.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.GenerateResource.cache
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.CoreCompileInputs.cache
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.exe
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.pdb
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.exe.config
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.exe
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.pdb
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Buffers.dll
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Memory.dll
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\MySqlConnector.xml
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.CopyComplete
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.exe.config
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.exe
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\SBDproject.pdb
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Buffers.dll
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Memory.dll
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\MySqlConnector.xml
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.AssemblyReference.cache
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.exe.config
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Edit_Property.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Add_Property.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.My_properties.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Real_Estate.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Register.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Login.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Properties.Resources.resources
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.GenerateResource.cache
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.CoreCompileInputs.cache
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.csproj.CopyComplete
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.exe
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.pdb
+C:\Users\Rumen Pavlov\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Delete_Property.resources
+C:\Users\irina\Source\Repos\irdimova05\SBDproject3course\obj\Debug\SBDproject.Delete_Property.resources
