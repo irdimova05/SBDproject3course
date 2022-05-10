@@ -71,6 +71,7 @@ namespace SBDproject
                 MySqlCommand command = new MySqlCommand(query, mySQLconn);
                 command.ExecuteNonQuery();
                 pr.loadMyProperties();
+                this.Close();
             }
             else
             {
