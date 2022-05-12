@@ -16,10 +16,20 @@ namespace SBDproject
         string connectionString = "server = localhost; userid = root; database = properties";
         User user = User.getInstance();
         My_properties pr;
-        public Edit_Property(My_properties pr)
+        string id;
+
+        Int32 propertyType;
+        Int32 propertyCity;
+        Int32 propertyNeighborhood;
+        Int32 propertyFacing;
+        double propertyPrice;
+        Int32 saleType;
+
+        public Edit_Property(My_properties pr, string id)
         {
-            InitializeComponent(); 
+            InitializeComponent();
             this.pr = pr;
+            this.id = id;
         }
 
         private void Edit_Property_Load(object sender, EventArgs e)
@@ -31,23 +41,22 @@ namespace SBDproject
                 /*-----OPEN MYSQL CONNECTION-----*/
                 mySQLconn.Open();
 
-                /*-----IDS-----*/
-                MySqlCommand command = new MySqlCommand("SELECT id FROM properties WHERE broker_id = " + "'" + user.getId() + "'", mySQLconn);
-                MySqlDataReader propertiesRes = command.ExecuteReader();
-                var propertiesList = new List<ComboBoxItem>();
-                while (propertiesRes.Read())
-                {
-                    propertiesList.Add(new ComboBoxItem() { name = propertiesRes.GetInt32(0).ToString(), value = propertiesRes.GetInt32(0) });
-                }
+                /*-----PROPERTY-----*/
+                MySqlCommand command = new MySqlCommand("SELECT p.*, n.city_id FROM properties p JOIN neighborhoods n ON n.id = p.neighborhood_id WHERE p.broker_id = " + "'" + user.getId() + "' AND p.id = '" + this.id + "' LIMIT 1", mySQLconn);
+                MySqlDataReader property = command.ExecuteReader();
 
-                var bindingSource = new BindingSource();
-                bindingSource.DataSource = propertiesList;
-                id.DataSource = bindingSource.DataSource;
-                id.DisplayMember = "name";
-                id.ValueMember = "value";
-                propertiesRes.Close();
+                property.Read();
 
-                /*-----SALETYPES-----*/
+                propertyType = property.GetInt32(3);
+                propertyCity = property.GetInt32(7);
+                propertyNeighborhood = property.GetInt32(2);
+                propertyFacing = property.GetInt32(4);
+                propertyPrice = property.GetDouble(5);
+                saleType = property.GetInt32(6);
+
+                property.Close();
+
+                /*-----TYPES-----*/
                 command.CommandText = "SELECT * FROM types";
                 MySqlDataReader typesRes = command.ExecuteReader();
                 var typesList = new List<ComboBoxItem>();
@@ -61,6 +70,7 @@ namespace SBDproject
                 type.DataSource = bindingSource1.DataSource;
                 type.DisplayMember = "name";
                 type.ValueMember = "value";
+                type.SelectedValue = propertyType;
                 typesRes.Close();
 
                 /*-----CITIES-----*/
@@ -77,7 +87,7 @@ namespace SBDproject
                 city.DataSource = bindingSource2.DataSource;
                 city.DisplayMember = "name";
                 city.ValueMember = "value";
-
+                city.SelectedValue = propertyCity;
                 cityRes.Close();
 
                 /*-----FACINGS-----*/
@@ -95,7 +105,22 @@ namespace SBDproject
                 facing.DataSource = bindingSource3.DataSource;
                 facing.DisplayMember = "name";
                 facing.ValueMember = "value";
+                facing.SelectedValue = propertyFacing;
                 facingRes.Close();
+
+                /*------PRICE------*/
+                price.Text = propertyPrice.ToString();
+
+                /*------SALE TYPE------*/
+                if (saleType == 1)
+                {
+                    radioRent.Checked = true;
+                }
+                else if (saleType == 2)
+                {
+                    radioSale.Checked = true;
+                }
+
                 /*-----CLOSE MYSQL CONNECTION-----*/
                 mySQLconn.Close();
 
@@ -128,6 +153,7 @@ namespace SBDproject
                     neighborhood.DataSource = bindingSource1.DataSource;
                     neighborhood.DisplayMember = "name";
                     neighborhood.ValueMember = "value";
+                    neighborhood.SelectedValue = propertyNeighborhood;
                     neighborhoodRes.Close();
                 }
                 catch (Exception ex)
@@ -153,13 +179,12 @@ namespace SBDproject
 
         private void editButton_Click(object sender, EventArgs e)
         {
-            var property_id = ((ComboBoxItem)id.SelectedItem).value;
             var type_id = ((ComboBoxItem)type.SelectedItem).value;
             var neighborhood_id = ((ComboBoxItem)neighborhood.SelectedItem).value;
             var facing_id = ((ComboBoxItem)facing.SelectedItem).value;
             var forSale = radioSale.Checked;
             var forRent = radioRent.Checked;
-            if (property_id != null && type_id != null && neighborhood_id != null && facing_id != null && price.Text.Length > 0 && (forSale || forRent))
+            if (this.id != null && type_id != null && neighborhood_id != null && facing_id != null && price.Text.Length > 0 && (forSale || forRent))
             {
                 var priceVal = Double.Parse(price.Text);
 
@@ -177,7 +202,7 @@ namespace SBDproject
                 {
                     query += "saletype_id = " + "'" + 1 + "' ";
                 }
-                query += "WHERE id = " + "'" + property_id + "'";
+                query += "WHERE id = " + "'" + this.id + "'";
 
                 MySqlConnection mySQLconn = new MySqlConnection(connectionString);
                 mySQLconn.Open();

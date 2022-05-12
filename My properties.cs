@@ -64,7 +64,10 @@ namespace SBDproject
 
         private void EditButton_Click(object sender, EventArgs e)
         {
-            var editProperty = new Edit_Property(this);
+            //get selected row from myPropertiesView
+            var selectedRow = myPropertiesView.SelectedRows[0];
+            var propertyId = selectedRow.Cells["ID"].Value.ToString();
+            var editProperty = new Edit_Property(this, propertyId);
             editProperty.Show();
         }
 
