@@ -73,8 +73,19 @@ namespace SBDproject
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
-            var deleteProperty = new Delete_Property(this);
-            deleteProperty.Show();
+            var selectedRow = myPropertiesView.SelectedRows[0];
+            var propertyId = selectedRow.Cells["ID"].Value.ToString();
+            if (propertyId != null)
+            {
+
+                var query = "DELETE FROM properties WHERE id = " + "'" + propertyId + "'";
+
+                MySqlConnection mySQLconn = new MySqlConnection(connectionString);
+                mySQLconn.Open();
+                MySqlCommand command = new MySqlCommand(query, mySQLconn);
+                command.ExecuteNonQuery();
+                this.loadMyProperties();
+            }
         }
     }
 }
